@@ -60,11 +60,19 @@ input {
   align-items: center;
   flex-direction: column;
 }
-.cpc {
+#left .cpc {
+  width: 100%;
+}
+.vsv{
   background-color: #f4f4f4;
   width: 350px;
   height: 60px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .terms button {
   margin-top: 40px;
   background-color: rgb(184, 3, 3);
