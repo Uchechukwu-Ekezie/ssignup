@@ -72,6 +72,13 @@ input {
   align-items: center;
   justify-content: space-between;
 }
+.vrv{
+  width: 100%;
+}
+.terms{
+  width: 350px;
+  margin: auto;
+}
 
 .terms button {
   margin-top: 40px;
@@ -120,9 +127,9 @@ select {
     margin-top: 20px; 
     height: auto; 
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
     padding: 20px;
-    text-align: left;
+    width: 100%;
   }
 
   .footer h1 {
@@ -141,18 +148,12 @@ select {
   }
   .ftt .ft {
     display: flex;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     margin-top: 10px; 
     margin-bottom: 10px;
   }
   .nnnn{
-    display: none;
-  }
-   .fft .ft1{
-    display: none;
-    background-color: olive;
-  }
-
+    display: none;  }
   select {
     width: 50%;
     height: 40px; 
