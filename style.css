@@ -122,6 +122,10 @@ select {
 }
 
 @media only screen and (max-width: 600px) {
+  .terms h1{
+    font-size: 12px;
+    color: aqua;
+  }
   footer {
     display: flex;
     margin-top: 20px; 
@@ -139,21 +143,26 @@ select {
 
   .ftt {
     margin-bottom: 20px;
-  }
+    /* background-color: red; */
+    width: 100%;
+  } 
+ 
   .ft ul {
     margin-right: 20px;
   }
   .ft ul li {
     margin-bottom: 10px;
   }
-  .ftt .ft {
+  .ftt .ft  {
     display: flex;
-    /* margin-right: 20px; */
+    justify-content: center;
+    align-items: center;
     margin-top: 10px; 
     margin-bottom: 10px;
   }
   .nnnn{
-    display: none;  }
+    display: none;
+  }
   select {
     width: 50%;
     height: 40px; 
